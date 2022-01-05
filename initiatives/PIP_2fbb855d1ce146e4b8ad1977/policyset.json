@@ -1,0 +1,32 @@
+{
+ "properties": {
+  "displayName": "PIP",
+  "policyType": "Custom",
+  "metadata": {
+   "version": "v1",
+   "createdBy": "ea54d240-fe61-4b4e-941b-1714ec611cab",
+   "createdOn": "2022-01-05T13:42:08.192056Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "PIP Deny - NAT G/W-2022_1",
+    "policyDefinitionId": "/subscriptions/dd5d519f-7a1c-4e88-8b4a-f83d6eaaaaa2/providers/Microsoft.Authorization/policyDefinitions/bb01e0e7-2b58-4b28-8f62-ac63e415bae1",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "PIP Deny - VPN G/W-2022_1",
+    "policyDefinitionId": "/subscriptions/dd5d519f-7a1c-4e88-8b4a-f83d6eaaaaa2/providers/Microsoft.Authorization/policyDefinitions/bb01e0e7-2b58-4b28-8f62-ac63e415baec",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/dd5d519f-7a1c-4e88-8b4a-f83d6eaaaaa2/providers/Microsoft.Authorization/policySetDefinitions/2fbb855d1ce146e4b8ad1977",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "2fbb855d1ce146e4b8ad1977"
+}
